@@ -21,17 +21,17 @@ fn part2(title: &str, lines: Vec<Line>) {
 
 struct Point {
     i: usize,
-    j: usize
+    j: usize,
 }
 
 struct Line {
     a: Point,
-    b: Point
+    b: Point,
 }
 
 struct Map {
     ni: usize,
-    values: Vec<usize>
+    values: Vec<usize>,
 }
 
 fn init_map(lines: &Vec<Line>) -> Map {

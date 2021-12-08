@@ -7,15 +7,15 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug executable 'day07'",
+            "name": "Debug executable 'day08'",
             "cargo": {
                 "args": [
                     "build",
-                    "--bin=day07",
+                    "--bin=day08",
                     "--package=aoc2021"
                 ],
                 "filter": {
-                    "name": "day07",
+                    "name": "day08",
                     "kind": "bin"
                 }
             },
@@ -25,16 +25,16 @@
         {
             "type": "lldb",
             "request": "launch",
-            "name": "Debug unit tests in executable 'day07'",
+            "name": "Debug unit tests in executable 'day08'",
             "cargo": {
                 "args": [
                     "test",
                     "--no-run",
-                    "--bin=day07",
+                    "--bin=day08",
                     "--package=aoc2021"
                 ],
                 "filter": {
-                    "name": "day07",
+                    "name": "day08",
                     "kind": "bin"
                 }
             },

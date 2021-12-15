@@ -3,6 +3,9 @@ name = "aoc2021"
 version = "0.1.0"
 edition = "2021"
 
+[dependencies]
+pathfinding = "3.0.5"
+
 [[bin]]
 name = "day01"
 path = "src/day01.rs"
@@ -58,3 +61,7 @@ path = "src/day13.rs"
 [[bin]]
 name = "day14"
 path = "src/day14.rs"
+
+[[bin]]
+name = "day15"
+path = "src/day15.rs"

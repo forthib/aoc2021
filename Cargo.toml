@@ -5,6 +5,7 @@ edition = "2021"
 
 [dependencies]
 pathfinding = "3.0.5"
+to-binary = "0.4.0"
 
 [[bin]]
 name = "day01"
@@ -65,3 +66,7 @@ path = "src/day14.rs"
 [[bin]]
 name = "day15"
 path = "src/day15.rs"
+
+[[bin]]
+name = "day16"
+path = "src/day16.rs"
